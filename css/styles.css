@@ -13,6 +13,9 @@
     --modal-background-color-dairy: #F4F4FD;
     
 }
+img{
+    display: block;
+}
 
  body{
     font-family: "Roboto", sans-serif;
@@ -24,16 +27,20 @@
 
  }
  .container{
-    width: 1440px;
+    width: 1158px;
     margin: 0 auto;
+    display: flex;
+    padding: 0 15px;
+
+
  }
- .container-bir{
+ /* .container-bir{
     display: flex;
     border-bottom: 1px solid var(--accent-color-cornflower);
     
-    width: 1440px;
-    height: 72px;
-    justify-content: space-between; 
+    /* width: 1440px;
+    height: 72px; */
+   /* justify-content: space-between; 
     padding-right: 156px;
     padding-left: 156px;  
     padding-top: 24px;
@@ -44,7 +51,7 @@
     
 
 
-}
+}*/
 .header{
     display: flex;
     align-items: center;
@@ -53,7 +60,7 @@
 }
  
  .container .logo, .logo-renk-iki{
-    display: flex;
+    /* display: flex; */
     justify-content: start;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -63,6 +70,8 @@
     text-transform: uppercase;
     text-decoration: none;
     color: var(--primary-brand-color-iris);
+    margin-right: 76px;
+
  }
  .logo-renk-iki{
     color: var(--dark-navy-blue) ;
@@ -73,12 +82,14 @@
     list-style-type: none;
     font-weight: 500;
     gap: 40px;
-    margin-left: 36px;
+    /* margin-left: 36px; */
     text-decoration: none;
 }
 .menu-bir{
     text-decoration: none;
     color: var(--dark-navy-blue);
+    padding: 24px 0;
+
 }
 .menu-bir:hover{
     color: var(--primary-brand-color-iris);
@@ -89,15 +100,16 @@
 
 
 }
-.container .info{
+.info{
     
     display: flex;
-    margin-left: 302px;
+    gap: 40px;
+
     
     list-style-type: none;
 }
 .info-list{
-    display: inherit;
+    display: flex;
     gap: 40px;
     text-decoration: none;
     list-style-type: none;
@@ -216,7 +228,7 @@ list-style-type: none;
 
 }
 .portfolyo{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -261,7 +273,7 @@ list-style-type: none;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 100px;
+    padding: 100px 0;
 
 
 }
