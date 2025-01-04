@@ -174,7 +174,7 @@ body {
   list-style-type: none;
 }
 .aciklamalar-li {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 24px) / 4);
 }
 .ozellikler {
   margin-bottom: 8px;
@@ -215,7 +215,7 @@ body {
 }
 .team-bir {
   background-color: var(--white-background-color-white);
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
@@ -262,7 +262,7 @@ body {
   row-gap: 48px;
 }
 .portfolyo-elemanlar {
-  width: calc((100% - 72px) / 3);
+  width: calc((100% - 24px) / 3);
 
   /*  border-color: var(--light-color-cloud);
   border-width: 0 1px 1px 1px; */
@@ -279,6 +279,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   color: var(--dark-navy-blue);
+  margin-bottom: 8px;
 }
 .uygulama-aciklama {
   color: var(--text-color-slate);
