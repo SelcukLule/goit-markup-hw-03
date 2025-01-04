@@ -298,6 +298,12 @@ body {
   display: inline-block;
   margin-bottom: 16px;
 }
+.footer-logo{
+    display: inline-block;
+}
+.logo .footer-logo{
+    display: inline-block;
+}
 
 .footer-logo-renk-iki {
   color: var(--light-color-cloud);
