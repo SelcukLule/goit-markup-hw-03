@@ -1,0 +1,281 @@
+:root{
+    --primary-brand-color-iris: #4D5AE5;
+    --pressed-state-color-ocean: #4D5AE5;
+    --dark-navy-blue: #2E2F42;
+    --success-color-green: #31D0AA;
+    --text-color-slate: #434455;
+    --subtle-text-color-light-slate: #8E8F99;
+    --accent-color-cornflower: #E7E9FC;
+    --light-color-cloud: #F4F4FD;
+    --modal-overlay-navy-blue-modal: #F4F4FD;
+    --hero-background-color-grey: #F4F4FD;
+    --white-background-color-white: #FFFFFF;
+    --modal-background-color-dairy: #F4F4FD;
+    
+}
+
+ body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+   
+    
+
+ }
+ .container{
+    width: 1440px;
+    margin: 0 auto;
+ }
+ .container-bir{
+    display: flex;
+    border-bottom: 1px solid var(--accent-color-cornflower);
+    
+    width: 1440px;
+    height: 72px;
+    justify-content: space-between; 
+    padding-right: 156px;
+    padding-left: 156px;  
+    padding-top: 24px;
+    padding-bottom: 24px; 
+    align-items: center;
+    background-color: var(--white-background-color-white);
+    
+    
+
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    
+    
+}
+ 
+ .container .logo, .logo-renk-iki{
+    display: flex;
+    justify-content: start;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--primary-brand-color-iris);
+ }
+ .logo-renk-iki{
+    color: var(--dark-navy-blue) ;
+ }
+ .menu{
+    display: flex;
+    
+    list-style-type: none;
+    font-weight: 500;
+    gap: 40px;
+    margin-left: 36px;
+    text-decoration: none;
+}
+.menu-bir{
+    text-decoration: none;
+    color: var(--dark-navy-blue);
+}
+.menu-bir:hover{
+    color: var(--primary-brand-color-iris);
+}
+.menu-bir:active{
+    text-decoration: underline;
+    color: var(--pressed-state-color-ocean);
+
+
+}
+.container .info{
+    
+    display: flex;
+    margin-left: 302px;
+    
+    list-style-type: none;
+}
+.info-list{
+    display: inherit;
+    gap: 40px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.info-bir{
+    text-decoration: none;
+}
+.info-bir:hover{
+    color: var(--pressed-state-color-ocean );
+}
+/* Header bitti */
+
+.hero-image{
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    background-color: var(--dark-navy-blue);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+
+}
+.baslik-bir{
+    color: var(--white-background-color-white);
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.07;
+
+
+}
+.button{
+    width: 169px;
+    height: 56px;
+    color: var(--white-background-color-white);
+    background-color: var(--primary-brand-color-iris);
+    font-weight: 500;
+    letter-spacing: 0.042em; 
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.button:hover{
+    background-color: var(--pressed-state-color-ocean)
+}
+
+.aciklamalar{
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 120px;
+   
+}
+.visually-hidden {
+    display: none;
+}
+.aciklama-list{
+display: flex;
+gap: 24px;
+flex-direction: row;
+list-style-type: none;
+}
+.ozellikler{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: var(--dark-navy-blue);
+
+}
+.aciklama{
+    color: var(--text-color-slate);
+}
+
+.takim{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--light-color-cloud);
+    padding: 120px;
+
+
+
+}
+.takim-baslik{
+    /* margin: 120px 639px 72px 639px; */
+    color: var(--dark-navy-blue);
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.1;
+
+}
+.team-members{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    list-style-type: none;
+
+
+}
+.team-bir{
+    background-color: var(--white-background-color-white);
+    
+    text-align: center;
+    
+}
+.member-name{
+    color: var(--dark-navy-blue);
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.kariyer{
+    color: var(--text-color-slate);
+
+}
+.portfolyo{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 120px;
+    background-color: var(--white-background-color-white);
+
+
+}
+.portfolyo-baslik{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: var(--dark-navy-blue);
+
+}
+.portfolyo-liste{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+    
+}
+.portfolyo-elemanlar{
+    border-style: solid;
+    border-color: var(--light-color-cloud);
+    border-width: 0 1px 1px 1px;
+    text-align: left;
+}
+.uygulamalar{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--dark-navy-blue);
+
+}
+.uygulama-aciklama{
+    color: var(--text-color-slate);
+}
+.bitis{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 100px;
+
+
+}
+.bitis{
+    background-color: var(--dark-navy-blue);
+}
+
+.footer-logo-renk-iki{
+    color: var(--light-color-cloud);
+}
+.footer-info{
+    width: 264px;
+    height: 72px;
+    color: var(--light-color-cloud);
+    text-wrap: wrap;
+
+}
