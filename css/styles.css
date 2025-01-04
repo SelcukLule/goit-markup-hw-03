@@ -1,46 +1,40 @@
-:root{
-    --primary-brand-color-iris: #4D5AE5;
-    --pressed-state-color-ocean: #4D5AE5;
-    --dark-navy-blue: #2E2F42;
-    --success-color-green: #31D0AA;
-    --text-color-slate: #434455;
-    --subtle-text-color-light-slate: #8E8F99;
-    --accent-color-cornflower: #E7E9FC;
-    --light-color-cloud: #F4F4FD;
-    --modal-overlay-navy-blue-modal: #F4F4FD;
-    --hero-background-color-grey: #F4F4FD;
-    --white-background-color-white: #FFFFFF;
-    --modal-background-color-dairy: #F4F4FD;
-    
+:root {
+  --primary-brand-color-iris: #4d5ae5;
+  --pressed-state-color-ocean: #4d5ae5;
+  --dark-navy-blue: #2e2f42;
+  --success-color-green: #31d0aa;
+  --text-color-slate: #434455;
+  --subtle-text-color-light-slate: #8e8f99;
+  --accent-color-cornflower: #e7e9fc;
+  --light-color-cloud: #f4f4fd;
+  --modal-overlay-navy-blue-modal: #f4f4fd;
+  --hero-background-color-grey: #f4f4fd;
+  --white-background-color-white: #ffffff;
+  --modal-background-color-dairy: #f4f4fd;
 }
-img{
-    display: block;
+img {
+  display: block;
 }
 
- body{
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2%;
-   
-    
-
- }
- .container{
-    width: 1158px;
-    margin: 0 auto;
-    display: flex;
-    padding: 0 15px;
-
-
- }
- /* .container-bir{
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 15px;
+}
+ .container-bir{
     display: flex;
     border-bottom: 1px solid var(--accent-color-cornflower);
-    
+ }
     /* width: 1440px;
     height: 72px; */
-   /* justify-content: space-between; 
+/* justify-content: space-between; 
     padding-right: 156px;
     padding-left: 156px;  
     padding-top: 24px;
@@ -52,242 +46,252 @@ img{
 
 
 }*/
-.header{
-    display: flex;
-    align-items: center;
-    
-    
+.header {
+  display: flex;
+  align-items: center;
 }
- 
- .container .logo, .logo-renk-iki{
-    /* display: flex; */
-    justify-content: start;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 3%;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--primary-brand-color-iris);
-    margin-right: 76px;
 
- }
- .logo-renk-iki{
-    color: var(--dark-navy-blue) ;
- }
- .menu{
-    display: flex;
-    
-    list-style-type: none;
-    font-weight: 500;
-    gap: 40px;
-    /* margin-left: 36px; */
-    text-decoration: none;
+.container .logo,
+.logo-renk-iki {
+  /* display: flex; */
+  justify-content: start;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--primary-brand-color-iris);
+  margin-right: 76px;
 }
-.menu-bir{
-    text-decoration: none;
-    color: var(--dark-navy-blue);
-    padding: 24px 0;
+.logo-renk-iki {
+  color: var(--dark-navy-blue);
+}
+.menu {
+  display: flex;
 
+  list-style-type: none;
+  font-weight: 500;
+  gap: 40px;
+  /* margin-left: 36px; */
+  text-decoration: none;
 }
-.menu-bir:hover{
-    color: var(--primary-brand-color-iris);
+.menu-bir {
+  text-decoration: none;
+  color: var(--dark-navy-blue);
+  padding: 24px 0;
 }
-.menu-bir:active{
-    text-decoration: underline;
-    color: var(--pressed-state-color-ocean);
+.menu-bir:hover {
+  color: var(--primary-brand-color-iris);
+}
+.menu-bir:active {
+  text-decoration: underline;
+  color: var(--pressed-state-color-ocean);
+}
+.info {
+  display: flex;
+  gap: 40px;
 
-
+  list-style-type: none;
 }
-.info{
-    
-    display: flex;
-    gap: 40px;
-
-    
-    list-style-type: none;
+.info-list {
+  display: flex;
+  gap: 40px;
+  text-decoration: none;
+  list-style-type: none;
 }
-.info-list{
-    display: flex;
-    gap: 40px;
-    text-decoration: none;
-    list-style-type: none;
-
+.info-bir {
+  text-decoration: none;
 }
-.info-bir{
-    text-decoration: none;
-}
-.info-bir:hover{
-    color: var(--pressed-state-color-ocean );
+.info-bir:hover {
+  color: var(--pressed-state-color-ocean);
 }
 /* Header bitti */
 
-.hero-image{
-    width: 1440px;
-    height: 600px;
-    display: flex;
-    background-color: var(--dark-navy-blue);
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-    
+.hero-image .container {
+  /*  width: 1440px;
+  height: 600px;  */
+  padding: 188px 0px;
+
+  display: flex; 
+  background-color: var(--dark-navy-blue);
+   justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+.baslik-bir {
+  color: var(--white-background-color-white);
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 1.07;
+  max-width: 496px;
+  display: flex;
+  
 
 }
-.baslik-bir{
-    color: var(--white-background-color-white);
-    font-size: 56px;
-    font-weight: bold;
-    line-height: 1.07;
+.button {
+  /* width: 169px;*/
+  height: 56px; 
+  
+  
+  min-width: 169px;
 
-
+  color: var(--white-background-color-white);
+  background-color: var(--primary-brand-color-iris);
+  font-weight: 500;
+  letter-spacing: 0.042em;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
 }
-.button{
-    width: 169px;
-    height: 56px;
-    color: var(--white-background-color-white);
-    background-color: var(--primary-brand-color-iris);
-    font-weight: 500;
-    letter-spacing: 0.042em; 
-    border-radius: 4px;
-    cursor: pointer;
-
-}
-.button:hover{
-    background-color: var(--pressed-state-color-ocean)
+.button:hover {
+  background-color: var(--pressed-state-color-ocean);
 }
 
-.aciklamalar{
-    display: flex;
-    /* border: 1px solid red; */
-    padding: 120px;
-   
+.aciklamalar {
+  display: flex;
+  /* border: 1px solid red; */
+  padding: 120px 0;
 }
 .visually-hidden {
-    display: none;
+  display: none;
 }
-.aciklama-list{
-display: flex;
-gap: 24px;
-flex-direction: row;
-list-style-type: none;
+.aciklama-list {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  list-style-type: none;
 }
-.ozellikler{
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: 500;
-    color: var(--dark-navy-blue);
+.aciklamalar-li{
+    width: calc((100% - 72px) / 4);
 
 }
-.aciklama{
-    color: var(--text-color-slate);
+.ozellikler {
+    margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--dark-navy-blue);
+}
+.aciklama {
+  color: var(--text-color-slate);
 }
 
-.takim{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    background-color: var(--light-color-cloud);
-    padding: 120px;
-
-
-
+.takim .container{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center; 
+  background-color: var(--light-color-cloud);
+  padding: 120px 0;
 }
-.takim-baslik{
-    /* margin: 120px 639px 72px 639px; */
-    color: var(--dark-navy-blue);
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 1.1;
-
+.takim-baslik {
+  /* margin: 120px 639px 72px 639px; */
+  margin-bottom: 72px;
+  color: var(--dark-navy-blue);
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.1;
 }
-.team-members{
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    list-style-type: none;
-
-
+.team-members {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  list-style-type: none;
 }
-.team-bir{
-    background-color: var(--white-background-color-white);
-    
-    text-align: center;
-    
+.team-bir {
+  background-color: var(--white-background-color-white);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
 }
-.member-name{
-    color: var(--dark-navy-blue);
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: 500;
-}
-.kariyer{
-    color: var(--text-color-slate);
+.takim-elamlari{
+    padding: 32px 0;
 
 }
-.portfolyo{
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 120px;
-    background-color: var(--white-background-color-white);
-
-
-}
-.portfolyo-baslik{
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 1.1;
-    color: var(--dark-navy-blue);
+.member-name {
+  color: var(--dark-navy-blue);
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 8px;
 
 }
-.portfolyo-liste{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    flex-wrap: wrap;
-    gap: 24px;
-    row-gap: 48px;
-    
+.kariyer {
+  color: var(--text-color-slate);
+  text-align: center;
 }
-.portfolyo-elemanlar{
-    border-style: solid;
-    border-color: var(--light-color-cloud);
-    border-width: 0 1px 1px 1px;
-    text-align: left;
+.portfolyo .container {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 120px 0;
+  background-color: var(--white-background-color-white);
 }
-.uygulamalar{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    color: var(--dark-navy-blue);
+.portfolyo-baslik {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.1;
+  color: var(--dark-navy-blue);
+  margin-bottom: 72px;
 
 }
-.uygulama-aciklama{
-    color: var(--text-color-slate);
+.portfolyo-liste {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
 }
-.bitis{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 100px 0;
+.portfolyo-elemanlar {
+  width: calc((100% - 72px) / 3);
+  
+ /*  border-color: var(--light-color-cloud);
+  border-width: 0 1px 1px 1px; */
+  text-align: left;
+}
+.port-uygulama{
+    padding: 32px 16px;
+    border: 1px solid var(--light-color-cloud);
+    border-top: none;
+    margin-top: 8px;
 
 
 }
-.bitis{
-    background-color: var(--dark-navy-blue);
+.uygulamalar {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--dark-navy-blue);
+}
+.uygulama-aciklama {
+  color: var(--text-color-slate);
+}
+.bitis .container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 100px 0;
+}
+.bitis {
+  background-color: var(--dark-navy-blue);
+}
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+
 }
 
-.footer-logo-renk-iki{
-    color: var(--light-color-cloud);
+.footer-logo-renk-iki {
+  color: var(--light-color-cloud);
 }
-.footer-info{
-    width: 264px;
-    height: 72px;
-    color: var(--light-color-cloud);
-    text-wrap: wrap;
-
+.footer-info {
+  width: 264px;
+  height: 72px;
+  color: var(--light-color-cloud);
+  text-wrap: wrap;
 }
